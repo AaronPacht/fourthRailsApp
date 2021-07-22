@@ -1,0 +1,11 @@
+<%= form_for anAction do |f| %>
+    <div>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+    </div>
+    <div>
+        <%= f.label :number %>
+        <%= f.number_field :number %>
+    </div>
+    <%= f.submit %>
+<% end %>
